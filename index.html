@@ -173,15 +173,18 @@ Musician, composer, theatremaker
         </footer>
 
         <script type="text/javascript" charset="utf-8">
-            let a;
-            let time;
-            setInterval(() => {
-              a = new Date();
-              time = a.toDateString() + ' ' + a.toTimeString();
-              time = time.toLowerCase();
-              document.getElementById('time').innerHTML = time;
-            }, 1000);
-          </script>
+     
+const myInterval = setInterval(myTimer, 1000);
+
+function myTimer() {
+  const date = new Date();
+  document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+}
+
+function myStopFunction() {
+  clearInterval(myInterval);
+}
+</script>
     </body>
 </html>
 
