@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+      
+
+        <meta name="thomas kerr html website" content="music">
+
+        <style>
+            * {
+
+                box-sizing: border-box;
+                font-size: medium;
+                text-align: left
+
+
+            }
+
+            h1, h2, h3 {
+                margin-bottom: 0;
+                padding-bottom: 0;
+               
+
+            }
+
+            p {
+                margin-top: 0;
+                padding-top: 0;
+                
+
+            }
+
+            img {
+                height: 150px;
+            }
+
+            header div {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+
+            body {
+	            font-family: 'Calibri', sans-serif;
+				background-color: rgb(158, 176, 255); 
+	            margin: 0;
+                padding: 0;
+                background-size: 100% 600px;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                font-size: 20px;
+                line-height: 1.7;
+            }
+
+            main {
+                width: 720px;
+                max-width: calc(100% - 2em);
+                margin: auto;
+                padding: 3em 1em;
+            }
+
+            header {
+                margin: 0;
+				text-align: center;
+                padding: 0em 0em;
+            }
+
+            nav a {
+	        	padding: 0.0em 0.0em;
+	        }
+
+            footer {
+                padding: 1em 1em;
+            }
+
+            .face-name img {
+                display: inline-block;
+                width: auto;
+                height: 100px;
+
+            }
+
+            .face-name pre {
+                width: 80%;
+                display: inline-block;
+                height:100px;
+                line-height: 1.2;
+		    }
+
+			a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0A0436;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+    </head>
+
+
+
+	
+    <body>
+        <header>
+<a href="index.html" style="color:#b5723f">go back to the beginning</a> 
+        </header>
+
+        <main>
+        Freak Night #3 -- 31/05/26, Daylight Glasnevin. 
+        STRINGS FOREVER -- 10/04/26, Kirkos. Thomas Kerr Trio and Steve Long LL and Second Time.
+        Portlaoise Jazz Festival -- 01/02/26, Liam Casey's. Anette Joy Quintet.  
+        
+        
+         
+
+            <script type="module">
+                import { run } from './play.core/src/run.js'
+                import * as program from './name.js'
+                run(program, { element : document.querySelector('pre') }).then(function(e){
+                    console.log(e)
+                }).catch(function(e) {
+                    console.warn(e.message)
+                    console.log(e.error)
+                })
+            </script>
+
+        </main>
+
+        <footer>
+
+            <p id="time"></p> 
+
+        </footer>
+
+        <script type="text/javascript" charset="utf-8">
+     
+const myInterval = setInterval(myTimer, 1000);
+
+function myTimer() {
+  const date = new Date();
+  document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+}
+
+function myStopFunction() {
+  clearInterval(myInterval);
+}
+</script>
+    </body>
+</html>
+
