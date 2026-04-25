@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thomas kerr html website</title>
+    <style>
+        body {
+        background-color: #babfc0;
+        padding-top: 10px;
+        padding-left: 10%;
+        padding-right: 10px;
+        max-width: 600px;
+	      font-family: Times;
+        color: rgb(255, 255, 255);
+        }
+    </style>
+  </head>
+
+  <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <header>
+        <a href="../index.html" style="color:#b5723f">go back to the beginning</a> 
+        <br>
+        </header>
+<p> <b><a href="https://www.youtube.com./watch?v=b4FU8yz4BYY" target="_blank" rel="noopener noreferrer" style="color:#ffffff">Sumer Is Icumen In</a> </b>
+<br>
+<br>
+<img src="img-posts/follow.JPG" width="35%" hspace="0">
+<img src="img-posts/coffee.jpeg" width="35%" vspace="8%">
+<img src="img-posts/rozitranscription.JPG" width="40%">
+<img src="img-posts/sofiathomas.png" width="20%">
+
+<a href="icgea.html" style="color:#ffffff">or follow on</a> 
+
+
+
+      </div>
+  </body>
+
+</html>
